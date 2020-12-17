@@ -28,7 +28,7 @@ Resultat d'exécution:
     ]
 }
 
-*Pour lister toutes les Tracks: 
+* Pour lister toutes les Tracks: 
 Type de requête: GET
 Endpoint: http://localhost:3000/tracks
 Resultat d'exécution:
@@ -56,7 +56,7 @@ Resultat d'exécution:
     ]
 }
 
-*Pour lister les tracks relative à l'album d'id est "5fdaac1fc388b14348cd775a": 
+* Pour lister les tracks relative à l'album d'id est "5fdaac1fc388b14348cd775a": 
 Type de requête: GET
 Endpoint: http://localhost:3000/albums/<id>
 Resultat d'exécution pour "http://localhost:3000/albums/5fdaac1fc388b14348cd775a":  
