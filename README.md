@@ -87,7 +87,7 @@
    }
 
 
-* Pour lister rechercher un keywords s'il existe dans les lyrics des chansons:
+* Pour lister les chansons dont lyrics contiennet une chaine spécifique qu'on va désigner par le paramètre "keyword":
    * Type de requête: GET
    * Endpoint: http://localhost:3000/tracks/lyrics/"keyword"
    * Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/love":  
