@@ -1,9 +1,9 @@
 # testTechnique-Neopolis
 
 * Pour lister tous les Albums:
-Type de requête: GET
-Endpoint: http://localhost:3000/albums
-Resultat d'exécution: 
+* Type de requête: GET
+* Endpoint: http://localhost:3000/albums
+* Resultat d'exécution: 
 {
     "count": 2,
     "albums": [
@@ -29,9 +29,9 @@ Resultat d'exécution:
 }
 
 * Pour lister toutes les Tracks: 
-Type de requête: GET
-Endpoint: http://localhost:3000/tracks
-Resultat d'exécution:
+* Type de requête: GET
+* Endpoint: http://localhost:3000/tracks
+* Resultat d'exécution:
 {
     "count": 1,
     "tracks": [
@@ -57,9 +57,9 @@ Resultat d'exécution:
 }
 
 * Pour lister les tracks relative à l'album d'id est "5fdaac1fc388b14348cd775a": 
-Type de requête: GET
-Endpoint: http://localhost:3000/albums/<id>
-Resultat d'exécution pour "http://localhost:3000/albums/5fdaac1fc388b14348cd775a":  
+* Type de requête: GET
+* Endpoint: http://localhost:3000/albums/<id>
+* Resultat d'exécution pour "http://localhost:3000/albums/5fdaac1fc388b14348cd775a":  
 {
     "count": 1,
     "tracks": [
@@ -85,9 +85,9 @@ Resultat d'exécution pour "http://localhost:3000/albums/5fdaac1fc388b14348cd775
 }
 
 * Pour lister rechercher un keywords s'il existe dans les lyrics des chansons:
-Type de requête: GET
-Endpoint: http://localhost:3000/tracks/lyrics/<keyword>
-Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/love":  
+* Type de requête: GET
+* Endpoint: http://localhost:3000/tracks/lyrics/<keyword>
+* Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/love":  
 {
     "count": 1,
     "tracks": [
@@ -112,16 +112,16 @@ Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/love":
     ]
 }
 
-Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/Sofiene":  
+* Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/Sofiene":  
 {
     "count": 0,
     "tracks": []
 }
 
 * Pour lister les détails relative à une chanson:
-Type de requête: GET
-Endpoint: http://localhost:3000/tracks/<id>
-Resultat d'exécution pour "http://localhost:3000/tracks/5fdb4da93b8379419854358a":  
+* Type de requête: GET
+* Endpoint: http://localhost:3000/tracks/<id>
+* Resultat d'exécution pour "http://localhost:3000/tracks/5fdb4da93b8379419854358a":  
 {
     "_id": "5fdb4da93b8379419854358a",
     "title": "A Little More Ft Victoria Monet",
@@ -132,9 +132,9 @@ Resultat d'exécution pour "http://localhost:3000/tracks/5fdb4da93b8379419854358
 
 
 * Pour créer un album:
-Type de requête: POST
-Endpoint: http://localhost:3000/albums
-Les paramètres en form-data:
+* Type de requête: POST
+* Endpoint: http://localhost:3000/albums
+* Les paramètres en form-data:
         title: <titre de l'album>,
         artist: <artist de l'album>,
         year: <année de sortie de l'album>,
@@ -142,9 +142,9 @@ Les paramètres en form-data:
         totalSongs: <Nombre total des chansons de l'album>
         
 * Pour créer une chanson:
-Type de requête: POST
-Endpoint: http://localhost:3000/tracks
-Les paramètres en form-data:
+* Type de requête: POST
+* Endpoint: http://localhost:3000/tracks
+* Les paramètres en form-data:
         title: <titre de la chansom>,
         trackAudio: <le fichier de la chanson>,
         lyrics: <les paroles de la chanson>,
