@@ -58,9 +58,9 @@
          }
 
 
-* Pour lister les tracks relative à l'album d'id est "5fdaac1fc388b14348cd775a": 
+* Pour lister les tracks relative à l'album d'id "5fdaac1fc388b14348cd775a": 
    * Type de requête: GET
-   * Endpoint: http://localhost:3000/albums/<id>
+   * Endpoint: http://localhost:3000/albums/"id"
    * Resultat d'exécution pour "http://localhost:3000/albums/5fdaac1fc388b14348cd775a":  
    {
        "count": 1,
@@ -89,7 +89,7 @@
 
 * Pour lister rechercher un keywords s'il existe dans les lyrics des chansons:
    * Type de requête: GET
-   * Endpoint: http://localhost:3000/tracks/lyrics/<keyword>
+   * Endpoint: http://localhost:3000/tracks/lyrics/"keyword"
    * Resultat d'exécution pour "http://localhost:3000/tracks/lyrics/love":  
    {
        "count": 1,
@@ -124,7 +124,7 @@
 
 * Pour lister les détails relative à une chanson:
    * Type de requête: GET
-   * Endpoint: http://localhost:3000/tracks/<id>
+   * Endpoint: http://localhost:3000/tracks/"id"
    * Resultat d'exécution pour "http://localhost:3000/tracks/5fdb4da93b8379419854358a":  
    {
        "_id": "5fdb4da93b8379419854358a",
