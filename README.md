@@ -1,32 +1,33 @@
 # testTechnique-Neopolis
-
+==========================================================================================================
 * Pour lister tous les Albums:
-* Type de requête: GET
-* Endpoint: http://localhost:3000/albums
-* Resultat d'exécution: 
-{
-    "count": 2,
-    "albums": [
+    * Type de requête: GET
+    * Endpoint: http://localhost:3000/albums
+    * Resultat d'exécution: 
         {
-            "_id": "5fdaac1fc388b14348cd775a",
-            "title": "General Admission",
-            "totalSongs": 16,
-            "request": {
-                "type": "GET",
-                "url": "http://localhost:3000/albums/5fdaac1fc388b14348cd775a"
-            }
-        },
-        {
-            "_id": "5fdaac62c388b14348cd775b",
-            "title": "Hotel Diablo",
-            "totalSongs": 14,
-            "request": {
-                "type": "GET",
-                "url": "http://localhost:3000/albums/5fdaac62c388b14348cd775b"
-            }
+            "count": 2,
+            "albums": [
+                {
+                    "_id": "5fdaac1fc388b14348cd775a",
+                    "title": "General Admission",
+                    "totalSongs": 16,
+                    "request": {
+                        "type": "GET",
+                        "url": "http://localhost:3000/albums/5fdaac1fc388b14348cd775a"
+                    }
+                },
+                {
+                    "_id": "5fdaac62c388b14348cd775b",
+                    "title": "Hotel Diablo",
+                    "totalSongs": 14,
+                    "request": {
+                        "type": "GET",
+                        "url": "http://localhost:3000/albums/5fdaac62c388b14348cd775b"
+                    }
+                }
+            ]
         }
-    ]
-}
+==========================================================================================================
 
 * Pour lister toutes les Tracks: 
 * Type de requête: GET
