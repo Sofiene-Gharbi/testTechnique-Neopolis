@@ -1,0 +1,6 @@
+{
+    "env": {
+        "MONGO_ATLAS_PW": "admin",
+        "SERVER_ADRESS": "http://localhost:3000/"
+    }
+}
